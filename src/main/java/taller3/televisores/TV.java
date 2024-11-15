@@ -48,8 +48,8 @@ public class TV {
 	public static int getNumTV() {
 		return numTV;
 	}
-	public static void setNumTV () {
-		numTV++;
+	public static void setNumTV (int num) {
+		numTV=num;
 	}
 	public void turnOn() {
 		estado=true;
